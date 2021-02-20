@@ -1,0 +1,8 @@
+curl -X POST \
+	-F 'client_id=YOUR_ID_HERE' \
+	-F 'client_secret=YOUR_SECRET_HERE' \
+	-F 'redirect_uri=urn:ietf:wg:oauth:2.0:oob' \
+	-F 'grant_type=authorization_code' \
+	-F 'code=YOUR_CODE_HERE' \
+	-F 'scope=read write follow push' \
+	https://INSTANCE.NAME/oauth/token

@@ -1,0 +1,5 @@
+curl -X POST \
+	-H 'Authorization: Bearer YOUR_API_TOKEN_HERE' \
+	-F 'status=Testing!' \
+	https://INSTANCE.NAME/api/v1/statuses
+

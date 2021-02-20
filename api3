@@ -1,0 +1,4 @@
+curl --output test \
+	-H 'Authorization: Bearer YOUR_ACCESSTOKEN_HERE' \
+	https://INSTANCE.NAME/api/v1/apps/verify_credentials
+

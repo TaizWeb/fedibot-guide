@@ -1,0 +1,6 @@
+curl -X POST \
+	-F 'client_name=BOT NAME' \
+	-F 'redirect_uris=urn:ietf:wg:oauth:2.0:oob' \
+	-F 'scopes=read write follow push' \
+	-F 'website=https://myapp.example' \
+	https://INSTANCE.NAME/api/v1/apps
